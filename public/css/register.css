@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/fondo.png) no-repeat;
+    background-size: 100vw  100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+header nav ul {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+    align-items: center;
+}
+
+header nav ul li a {
+    margin-right: 80px;
+    font-size: 20px;
+    color: #4c8cac
+}
+
+section {
+    display: flex;
+    margin: 70px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.nav {
+    margin-bottom: 60px;
+}
+
+input {
+    padding: 1px;
+    width: 250px;
+    height: 40px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: solid 2px #a8d8f0;
+}
+
+.form {
+    width: 300Px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #a8d8f0;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 232px;
+}
+
+.bottoncenter {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    width: 232px;
+}
+
+.btn_btn-primary {
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #4c8cac;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}
+
+
+label {
+    width: 252px;
+    font-size: 18px;
+}
+
+.warnings {
+    width: 200px;
+    color: #2f80a9;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+}

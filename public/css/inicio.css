@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/fondo.png) no-repeat;
+    background-size: 100vw 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+header {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+section1 {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.contain-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+#example {
+    color: #a8d8f0;
+    font-size: 40px;
+}
+
+h2 {
+    color: #3269a1;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    display:inline-block;
+    justify-content: space-around;
+    align-items: center;
+    width:45%;
+    height: 40px;
+    padding: 6px;
+    background: #3269a1;
+    border-radius: 20px;
+    text-align: center;    
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+img {
+    width: 100vh;
+}
+
+
+
+h3 {
+    font-size: x-large;
+    color: #3269a1;
+    padding-left: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 40%;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    height: 100%;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    height: 70%;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: hwb(210 17% 47%);
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+a:hover {
+    height: 70%;
+    width: 8vw;
+    border-radius: 8px ;
+    color: #fff;
+    background-color: hwb(210 17% 47%);
+    transform: scale(1.2);
+}
+
+
+nav li {
+    list-style: none;
+}
+
+
+#img {
+    height: 50px;
+    width: 50px;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #3269a1;
+    font-size: 40px;
+
+}
+
+#container1 {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    padding: 90px 0 0 0 ; 
+
+}
+
+#container2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 0 0 ;
+    height: 30vh;
+
+}
+
+.contain {
+    background: #a8d8f0;
+    color: #3269a1;
+    font-size: 16px;
+    width: 15%;
+    height: 220px;
+    text-align: center;
+
+}
+
+.contain-1 {
+    background: #3269a1;
+    color: #a8d8f0;
+    font-size: 16px;
+    width: 15%;
+    height: 220px;
+    text-align: center;
+
+}
+
+h5 {
+    font-size:15px;
+    text-align:center;
+    padding: 5px;
+
+}
+
+h6 {
+    font-size:15px;
+    text-align:center;
+    padding-bottom: 12px ;
+
+}
+
+.title {
+    font-size: 20px;
+}
+
+.sub-title {
+    font-size: 20px;
+}
+
+
+
+.boton-1 {
+    background: #3269a1;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+.boton-2 {
+    background: #a8d8f0;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px;
+} 
+
+.container-major {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+h4 {
+    text-align: center;
+}
+
+hr {
+    color: #3269a1;
+    margin: 10px;
+}
+
+.secction1 {
+    background: #a8d8f0;
+    color: #3269a1;
+    width: 50%;
+    margin: 10px;
+}
+
+.schedule{
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+
+}
+
+.contain02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#reserve {
+    background: #a8d8f0;
+    color: #3269a1;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    height: 35px;
+    width: 110%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+input {
+    margin: 20px;
+    height: 30px;
+    width: 110%;
+
+}
+
+#mens {
+    height: 100px;
+}
+
+.boton-submit {
+    background: #3269a1;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    height: 30px;
+    width: 100%;
+}

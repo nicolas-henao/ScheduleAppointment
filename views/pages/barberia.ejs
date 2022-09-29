@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARBERIAS</title>
+    <link rel="stylesheet" href="./css/inicio.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h3>SCHEDULE APPOINTMENT</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">INICIO</a></li>
+                <li><a href="/create">CREAR+</a></li>
+                <li><a href="/login">LOGIN</a></li>
+                <img id="img" src="./img/bienvenida-removebg-preview.png" alt="icono">
+            </ul>
+        </nav>
+    </header>
+    <h1>BARBERIAS</h1>
+    <% if (data.length) { %>
+        <%for (let i=0; i < data.length; i++) { %>
+    <div id="container1">
+                <div class="contain">
+                    <h5 class="title">
+                        <%= data[i].nombre1 %>
+                    </h5>
+                    <h6 class="sub-title">
+                        <%= data[i].direccion %>
+                    </h6>
+                    <li>
+                        <%= data[i].corte %>..........<%= data[i].precio %>
+                    </li>
+                    <li>
+                        <%= data[i].corte %>..........<%= data[i].precio %>
+                    </li>
+                    <li>
+                        <%= data[i].corte %>..........<%= data[i].precio %>
+                    </li>
+                    <li>
+                        <%= data[i].corte %>..........<%= data[i].precio %>
+                    </li>
+                    <li>
+                        <%= data[i].corte %>..........<%= data[i].precio %>
+                    </li>
+                    <a class="boton-1" href="">SCHEDULE</a>
+                    <% } %>
+                        <% } %>
+                </div>
+    </div>
+</body>
+
+</html>

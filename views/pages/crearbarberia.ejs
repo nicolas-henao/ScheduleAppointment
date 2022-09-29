@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/crear.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h3>SCHEDULE APPOINTMENT</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">INICIO</a></li>
+                <li><a href="/create">CREAR+</a></li>
+                <li><a href="/login">LOGIN</a></li>
+                <img id="img" src="./img/bienvenida-removebg-preview.png" alt="icono">
+            </ul>
+        </nav>
+
+    <form action="/barberia" method="get">
+        <p>Nombre: <input type="text" name="nombre1" size="40"></p>
+        <p>Direccion: <input type="text" name="direccion" min="1900"></p>
+        <p>Corte: <input type="text" name="corte" size="40"></p>
+        <p>Precio: <input type="number" name="precio" size="40"></p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+
+</html>
